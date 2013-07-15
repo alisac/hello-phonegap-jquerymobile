@@ -1,4 +1,4 @@
-hello-phonegap
-==============
+hello-phonegap-jquerymobile
+===========================
 
-A Hello World app for PhoneGap. Also using jQuery and jQueryMobile.
+A "hello world" app for PhoneGap Build using jQuery Mobile.
