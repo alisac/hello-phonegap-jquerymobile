@@ -1,0 +1,56 @@
+/* CSS Document
+ * Department of Permitting Services App
+ *
+ * default style derived from MCG Mobile
+ * http://m.montgomerycountymd.gov/mcg/index.html
+ * 
+ * 28-05-2013 alisa.ky.chen@gmail.com */
+
+/* 28-05-2013 NOTE: see css/images folder for
+ * background tiles, as they were modified from MCG Mobile
+ * to tile together */
+
+/* splash screen */
+
+/* general background and footer background */
+/* requires $.mobile.page.prototype.options.theme = "";
+ * on mobileinit; see mobile-page-presenter.js */
+.ui-mobile-viewport {
+  background: none;
+  background-image: url("images/footer.png");  
+}
+
+.ui-header {
+  background: none;
+  background: url("images/header.png") repeat-x;
+}
+
+.ui-content {
+  background: none;
+  background-image: url("images/content.png");
+}
+
+/* copyright in footer */
+.ui-page .ui-footer {
+  min-height: 12px;
+  background: none;
+  border-bottom: none;
+}
+.ui-page .ui-footer.copyright {
+  color: #cccccc;
+  font-size: 12px;
+  font-weight: normal;
+  text-align: center;
+}
+.ui-dialog .ui-dialog-contain { margin-top: 0 }
+
+/* blend in buttons inside of header, footer */
+.ui-header .ui-btn,
+.ui-footer .ui-btn {
+  border-color: #243C67;
+}
+
+.ui-panel {
+  background-color: #222222;
+  background-image: none;
+}
