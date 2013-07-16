@@ -4,7 +4,7 @@
     id        = "com.chen.alisa"
     version   = "1.0.0">
 
-<name>DPS Complaint Application</name>
+<name>Hello PhoneGap App</name>
 
 <description>
   A "hello world" PhoneGap Build application using jQuery Mobile.
